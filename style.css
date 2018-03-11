@@ -83,9 +83,9 @@ footer {
   align-items: center;
   font-family: "Raleway", sans-serif;
 }
-footer > p > a {
-  color: #919191;
-}
+footer > div > a { transition: color 0.6s; }
+footer > p > a { color: #919191; }
+footer > div > a:hover { color: rgba(0,0,0,0.5); }
 footer > p > a:visited {
   color: #919191;
 }
