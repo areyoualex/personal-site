@@ -60,20 +60,42 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+#title p {
+  position: absolute;
+  right: 10vw;
+  bottom: 10vh;
+  font-size: 15vmin;
+  width: 10vmin;
+  height: 15vmin;
+  color: rgba(255,255,255,0.5);
+  transition: color 1s;
+}
+#title p:hover {
+  color: rgba(0,0,0,0.5);
+}
 footer {
-  height: 33vh;
+  height: 40vh;
   background-color: #252628;
-  font-size: 12vmin;
   color: white;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
+  font-family: "Raleway", sans-serif;
+}
+footer > p > a {
+  color: #919191;
+}
+footer > p > a:visited {
+  color: #919191;
 }
 footer div {
+  font-size: 12vmin;
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 60vw;
+  height: 20vh;
 }
 footer a:visited {
   color: white;
