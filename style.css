@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+a {
+  color: unset;
+}
 body {
   overflow-x: hidden;
 }
@@ -35,6 +38,18 @@ body {
   font-size: 8vmax;
   margin-left: 8vmax;
   margin-bottom: 5vh;
+}
+#title h2 {
+  font-family: "Space Mono", monospace;
+  font-size: 4vmax;
+  position: absolute;
+  margin: auto;
+  height: min-content;
+  top: 16vmax;
+  bottom: 0;
+  left: 2vw;
+  color: white;
+  overflow: hidden;
 }
 .section p {
   font-family: "Raleway", sans-serif;
@@ -101,5 +116,8 @@ footer a:visited {
   color: white;
 }
 
-@media (max-width: 100vh) {
+@media (max-width: 82vh) {
+  #title h2 {
+    top: 36vmax;
+  }
 }
