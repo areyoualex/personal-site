@@ -1,1 +1,11 @@
-/.project
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+
+# Build directory
+/public
+.DS_Store
+
+#Vim stuff
+*.swp
