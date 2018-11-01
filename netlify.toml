@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/sinquiz"
+  to = "https://invsinusoid-gjusravtrb.now.sh"
+  status = 302
+  force = true
