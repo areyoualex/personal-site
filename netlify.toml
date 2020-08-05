@@ -3,3 +3,8 @@
   to = "https://quiz.ruizalex.com"
   status = 302
   force = true
+[[redirects]]
+  from = "/"
+  to = "https://github.com/areyoualex"
+  status = 302
+  force = true
